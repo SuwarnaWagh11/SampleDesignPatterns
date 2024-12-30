@@ -1,17 +1,17 @@
-package org.qa.abstractfactory.capitalcitycontroller;
+package org.qa.abstractfactory.controller.capitalcity;
 
 import org.qa.abstractfactory.models.CapitalCity;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class Warsaw implements CapitalCity {
+public class Paris implements CapitalCity {
     /**
      * @return
      */
     @Override
     public int getPopulation() {
-        return 200000;
+        return 4300000;
     }
 
     /**
@@ -19,6 +19,6 @@ public class Warsaw implements CapitalCity {
      */
     @Override
     public List<String> getListOfAttractions() {
-        return Arrays.asList("Cultural Palace", "Royal Castle", "Polish Museum");
+        return Arrays.asList("Eiffel Tower","The Louvre","The Arch de Triumphe");
     }
 }

@@ -1,4 +1,4 @@
-package org.qa.abstractfactory.languagecontrollers;
+package org.qa.abstractfactory.controller.language;
 
 import org.qa.abstractfactory.models.Language;
 

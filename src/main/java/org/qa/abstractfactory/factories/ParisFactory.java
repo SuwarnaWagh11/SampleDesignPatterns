@@ -1,18 +1,18 @@
 package org.qa.abstractfactory.factories;
 
+import org.qa.abstractfactory.controller.capitalcity.Paris;
+import org.qa.abstractfactory.controller.language.French;
 import org.qa.abstractfactory.models.CapitalCity;
 import org.qa.abstractfactory.InternationFactory;
 import org.qa.abstractfactory.models.Language;
-import org.qa.abstractfactory.controller.capitalcity.Madrid;
-import org.qa.abstractfactory.controller.language.Spanish;
 
-public class SpanishFactory implements InternationFactory {
+public class ParisFactory implements InternationFactory {
     /**
      * @return
      */
     @Override
     public Language getLanguage() {
-        return new Spanish();
+        return new French();
     }
 
     /**
@@ -20,6 +20,6 @@ public class SpanishFactory implements InternationFactory {
      */
     @Override
     public CapitalCity createCapital() {
-        return new Madrid();
+        return new Paris();
     }
 }

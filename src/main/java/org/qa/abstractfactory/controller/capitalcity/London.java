@@ -1,4 +1,4 @@
-package org.qa.abstractfactory.capitalcitycontroller;
+package org.qa.abstractfactory.controller.capitalcity;
 
 import org.qa.abstractfactory.models.CapitalCity;
 

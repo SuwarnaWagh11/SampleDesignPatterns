@@ -3,12 +3,9 @@ package org.qa;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
-import org.qa.abstractfactory.factories.DelhiFactory;
-import org.qa.abstractfactory.factories.EnglandFactory;
-import org.qa.abstractfactory.factories.SpanishFactory;
-import org.qa.abstractfactory.factories.WarsawFactory;
+import org.qa.abstractfactory.factories.*;
 import org.qa.abstractfactory.models.CapitalCity;
-import org.qa.abstractfactory.models.InternationFactory;
+import org.qa.abstractfactory.InternationFactory;
 import org.qa.abstractfactory.models.Language;
 
 /**
@@ -60,6 +57,17 @@ public class MainTest
         Language lang = factory.getLanguage();
         lang.greet();
         System.out.println("Delhi contains population "+ capital.getPopulation()+ "\nHere are some attractions "+ capital.getListOfAttractions());
+        assertTrue( true );
+    }
+
+    @Test
+    public void verifyTestForParis()
+    {
+        InternationFactory factory = new ParisFactory();
+        CapitalCity capital = factory.createCapital();
+        Language lang = factory.getLanguage();
+        lang.greet();
+        System.out.println("Paris contains population "+ capital.getPopulation()+ "\nHere are some attractions "+ capital.getListOfAttractions());
         assertTrue( true );
     }
 }

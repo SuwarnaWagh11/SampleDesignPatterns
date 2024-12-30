@@ -1,10 +1,10 @@
 package org.qa.abstractfactory.factories;
 
 import org.qa.abstractfactory.models.CapitalCity;
-import org.qa.abstractfactory.models.InternationFactory;
+import org.qa.abstractfactory.InternationFactory;
 import org.qa.abstractfactory.models.Language;
-import org.qa.abstractfactory.languagecontrollers.English;
-import org.qa.abstractfactory.capitalcitycontroller.London;
+import org.qa.abstractfactory.controller.language.English;
+import org.qa.abstractfactory.controller.capitalcity.London;
 
 public class EnglandFactory implements InternationFactory {
     /**
