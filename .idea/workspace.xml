@@ -4,10 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c2aaa3e-0555-441e-acb0-0e8ab6b77cd9" name="Changes" comment="Abstract Design Pattern with real time example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/builderpattern/mmsbuilder/SBSBBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/builderpattern/mmskwds/SBSBKeywords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/qa/MMSKeywordTest.java" afterDir="false" />
+    <list default="true" id="7c2aaa3e-0555-441e-acb0-0e8ab6b77cd9" name="Changes" comment="Builder Design Pattern with real time example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/abstractfactorypattern/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/abstractfactorypattern/ConcreteFactory1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/abstractfactorypattern/ConcreteFactory2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/abstractfactorypattern/ConcreteProdA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/abstractfactorypattern/ConcreteProdB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/abstractfactorypattern/ProductA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/abstractfactorypattern/ProductB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern/ConcreteCreatorA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern/ConcreteCreatorB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern/ConcreteProdA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern/ConcreteProdB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern/Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern1/NexonConcrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern1/PunchConcrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern1/SafariConcrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern1/TataCarCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern1/TataCars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern1/TataNexon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern1/TataPunch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern1/TataSafari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/simplefactory/Alpha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/simplefactory/BaseInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/simplefactory/Beta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/simplefactory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/simplefactory/SupplierFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/qa/AbstractFactoryPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/qa/FactoryPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/qa/SimpleFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,19 +77,23 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.qa.abstractfactorypattern" />
+      <recent name="org.qa.staticfactory" />
       <recent name="org.qa.filegeneratorfactory.model" />
       <recent name="org.qa.filegeneratorfactory.filefactories" />
       <recent name="org.qa.abstractfactory.capitalcitycontroller" />
-      <recent name="org.qa.abstractfactory.languagecontrollers" />
-      <recent name="org.qa.abstractfactory.factories" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.qa.abstractfactory.languagecontrollers" />
       <recent name="org.qa.abstractfactory.factories" />
       <recent name="org.qa.abstractfactory.capitalcitycontroller" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.qa.abstractfactorypattern" />
+      <recent name="org.qa.simplefactory" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.MMSKeywordTest.compareSBSBKeyword">
+  <component name="RunManager" selected="JUnit.FactoryPattern.verifyTataCarsFactoryMethodPattern">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -95,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileCreationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AbstractFactoryPatternTest.verifyTestForAbstractFactoryPattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SampleDesignPatterns" />
       <extension name="coverage">
         <pattern>
@@ -104,29 +133,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.qa" />
-      <option name="MAIN_CLASS_NAME" value="org.qa.FileCreationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileCreationTest.verifyFileGeneratedForEAM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SampleDesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.qa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.qa" />
-      <option name="MAIN_CLASS_NAME" value="org.qa.FileCreationTest" />
-      <option name="METHOD_NAME" value="verifyFileGeneratedForEAM" />
+      <option name="MAIN_CLASS_NAME" value="org.qa.AbstractFactoryPatternTest" />
+      <option name="METHOD_NAME" value="verifyTestForAbstractFactoryPattern" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MMSKeywordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FactoryPattern.verifyFactoryMethodPattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SampleDesignPatterns" />
       <extension name="coverage">
         <pattern>
@@ -135,29 +149,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.qa" />
-      <option name="MAIN_CLASS_NAME" value="org.qa.MMSKeywordTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MMSKeywordTest.compareSBSBKeyword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SampleDesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.qa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.qa" />
-      <option name="MAIN_CLASS_NAME" value="org.qa.MMSKeywordTest" />
-      <option name="METHOD_NAME" value="compareSBSBKeyword" />
+      <option name="MAIN_CLASS_NAME" value="org.qa.FactoryPattern" />
+      <option name="METHOD_NAME" value="verifyFactoryMethodPattern" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MMSKeywordTest.verifySBSBKeyword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FactoryPattern.verifyTataCarsFactoryMethodPattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SampleDesignPatterns" />
       <extension name="coverage">
         <pattern>
@@ -166,8 +165,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.qa" />
-      <option name="MAIN_CLASS_NAME" value="org.qa.MMSKeywordTest" />
-      <option name="METHOD_NAME" value="verifySBSBKeyword" />
+      <option name="MAIN_CLASS_NAME" value="org.qa.FactoryPattern" />
+      <option name="METHOD_NAME" value="verifyTataCarsFactoryMethodPattern" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFactoryTest.simpleFactoryMethodTestVerification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SampleDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.qa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.qa" />
+      <option name="MAIN_CLASS_NAME" value="org.qa.SimpleFactoryTest" />
+      <option name="METHOD_NAME" value="simpleFactoryMethodTestVerification" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFactoryTest.staticFactoryTestVerification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SampleDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.qa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.qa" />
+      <option name="MAIN_CLASS_NAME" value="org.qa.SimpleFactoryTest" />
+      <option name="METHOD_NAME" value="staticFactoryTestVerification" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MMSKeywordTest.compareSBSBKeyword" />
-        <item itemvalue="JUnit.MMSKeywordTest" />
-        <item itemvalue="JUnit.MMSKeywordTest.verifySBSBKeyword" />
-        <item itemvalue="JUnit.FileCreationTest.verifyFileGeneratedForEAM" />
-        <item itemvalue="JUnit.FileCreationTest" />
+        <item itemvalue="JUnit.FactoryPattern.verifyTataCarsFactoryMethodPattern" />
+        <item itemvalue="JUnit.AbstractFactoryPatternTest.verifyTestForAbstractFactoryPattern" />
+        <item itemvalue="JUnit.FactoryPattern.verifyFactoryMethodPattern" />
+        <item itemvalue="JUnit.SimpleFactoryTest.simpleFactoryMethodTestVerification" />
+        <item itemvalue="JUnit.SimpleFactoryTest.staticFactoryTestVerification" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735588117501</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Builder Design Pattern with real time example">
+      <option name="closed" value="true" />
+      <created>1735682145119</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735682145119</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +273,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Abstract Design Pattern with internation Language &amp; city example" />
     <MESSAGE value="Abstract Design Pattern with real time example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstract Design Pattern with real time example" />
+    <MESSAGE value="Builder Design Pattern with real time example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Builder Design Pattern with real time example" />
   </component>
 </project>
