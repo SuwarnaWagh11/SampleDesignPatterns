@@ -13,7 +13,7 @@ public class EAMFile implements FileGeneratorFactory {
      * @return
      */
     @Override
-    public FileGenerator fileGenerator() {
+    public FileGenerator generator() {
         return new EAMGenerator();
     }
 

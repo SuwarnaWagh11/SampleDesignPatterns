@@ -17,7 +17,7 @@ public class FileCreationTest {
     @Test
     public void verifyFileGeneratedForEAM(){
         FileGeneratorFactory factory = new EAMFile();
-        FileGenerator generator = factory.fileGenerator();
+        FileGenerator generator = factory.generator();
         FileWriter writer = factory.fileWriter();
         FileParser parser = factory.fileParser();
         String filename = generator.generateFileName();
@@ -31,7 +31,7 @@ public class FileCreationTest {
     @Test
     public void verifyFileGeneratedForMSP(){
         FileGeneratorFactory factory = new MSPFile();
-        FileGenerator generator = factory.fileGenerator();
+        FileGenerator generator = factory.generator();
         FileWriter writer = factory.fileWriter();
         FileParser parser = factory.fileParser();
         String filename = generator.generateFileName();

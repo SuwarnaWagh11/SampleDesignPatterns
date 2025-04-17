@@ -6,7 +6,7 @@ import org.qa.filegeneratorfactory.model.FileWriter;
 
 public interface FileGeneratorFactory {
 
-    FileGenerator fileGenerator();
+    FileGenerator generator();
     FileWriter fileWriter();
     FileParser fileParser();
 

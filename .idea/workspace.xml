@@ -4,36 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c2aaa3e-0555-441e-acb0-0e8ab6b77cd9" name="Changes" comment="Builder Design Pattern with real time example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/abstractfactorypattern/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/abstractfactorypattern/ConcreteFactory1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/abstractfactorypattern/ConcreteFactory2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/abstractfactorypattern/ConcreteProdA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/abstractfactorypattern/ConcreteProdB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/abstractfactorypattern/ProductA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/abstractfactorypattern/ProductB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern/ConcreteCreatorA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern/ConcreteCreatorB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern/ConcreteProdA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern/ConcreteProdB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern/Creator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern1/NexonConcrete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern1/PunchConcrete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern1/SafariConcrete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern1/TataCarCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern1/TataCars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern1/TataNexon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern1/TataPunch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/factorypattern1/TataSafari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/simplefactory/Alpha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/simplefactory/BaseInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/simplefactory/Beta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/simplefactory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/qa/simplefactory/SupplierFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/qa/AbstractFactoryPatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/qa/FactoryPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/qa/SimpleFactoryTest.java" afterDir="false" />
+    <list default="true" id="7c2aaa3e-0555-441e-acb0-0e8ab6b77cd9" name="Changes" comment="Simple Factory method &amp; Builder Design Pattern with real time example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/qa/filegeneratorfactory/FileGeneratorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/qa/filegeneratorfactory/FileGeneratorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/qa/filegeneratorfactory/filegenerator/EAMFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/qa/filegeneratorfactory/filegenerator/EAMFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/qa/filegeneratorfactory/filegenerator/MSPFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/qa/filegeneratorfactory/filegenerator/MSPFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/qa/FileCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/qa/FileCreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/qa/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/qa/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,26 +32,26 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2qq6Rap5o5WOgmnboRUrIA6mICz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "OverrideImplement.generate.javadoc": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.qa.abstractfactorypattern" />
@@ -255,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735682145119</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Simple Factory method &amp; Builder Design Pattern with real time example">
+      <option name="closed" value="true" />
+      <created>1736108584935</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736108584935</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,6 +259,7 @@
     <MESSAGE value="Abstract Design Pattern with internation Language &amp; city example" />
     <MESSAGE value="Abstract Design Pattern with real time example" />
     <MESSAGE value="Builder Design Pattern with real time example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder Design Pattern with real time example" />
+    <MESSAGE value="Simple Factory method &amp; Builder Design Pattern with real time example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple Factory method &amp; Builder Design Pattern with real time example" />
   </component>
 </project>
